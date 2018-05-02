@@ -6,7 +6,7 @@ from django.db import models
 
 class Task(models.Model):
     description = models.CharField(max_length=60, blank=False)
-    date = models.DateField(blank=True)
+    date = models.DateField(null=True, default="")
     done = models.BooleanField(default=False)
 
     class Meta:

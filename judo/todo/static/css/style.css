@@ -1,0 +1,64 @@
+/*
+#333A42, 
+#485058,
+#A6A5A1,
+#F1ECE9,
+#D7443F,
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1ECE9;
+}
+
+header {
+    padding: 10px 0;
+    background-color: #485058;
+}
+
+.page-title-text {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #F1ECE9;
+}
+
+.main-content-block {
+    margin-top: 40px;
+}
+
+.all-task-list-date {
+    font-size: 10px;
+    color: #A6A5A1;
+}
+
+.list-group-item > span {
+    vertical-align: center;
+}
+
+.btn-task-m-t {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.task-success {
+    background-color: #e2ffd9;
+}
+
+@media (max-width: 991px) {
+    .task-input-item {
+        margin-top: 10px;
+    }
+
+    #createTaskBtn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .all-task-list-date {
+        float: none !important;
+        font-size: 12px;
+    }
+}
