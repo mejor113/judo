@@ -71,7 +71,7 @@ function appendTaskComponent(type, id, description, date, done) {
                                             </button>
                                             <button type="button" class="btn btn-danger btn-xs pull-right btn-delete-task btn-task-m-t" data-id="${id}">
                                                 Delete
-                                                <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
+                                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
                                             </button> <br>
                                             <span class="all-task-list-date pull-right">${date || ''}</span>
                                         </div>
