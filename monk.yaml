@@ -1,0 +1,5 @@
+namespace: judo
+
+stack:
+  defines: group
+  members: []
